@@ -39,9 +39,9 @@ MIT
 
 <h3>Libraries used.</h3>
 
-https://github.com/jdg/MBProgressHUD
-https://github.com/AFNetworking/AFNetworking
-Used http://api.rottentomatoes.com/api/public/v1.0/ API
+- https://github.com/jdg/MBProgressHUD
+- https://github.com/AFNetworking/AFNetworking
+- Used http://api.rottentomatoes.com/api/public/v1.0/ API
 
 
 
