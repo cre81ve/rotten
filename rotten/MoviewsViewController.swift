@@ -53,6 +53,8 @@ class MoviewsViewController: UIViewController,UITableViewDataSource,UITableViewD
     
     func refresh() {
         var searchStr = searchMovies.text
+        MBProgressHUD.showHUDAddedTo(self.view!, animated: true)
+
         if(searchStr  != nil && searchStr != "") {
             renderFiltered(searchStr)
             
@@ -73,6 +75,7 @@ class MoviewsViewController: UIViewController,UITableViewDataSource,UITableViewD
             if((error) != nil) {
                 NSLog("Error communicating");
                 self.networkView.hidden = false
+                self.showhideview()
             } else {
                 var timerloaded = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: Selector("showhideview"), userInfo: nil, repeats: false)
     
@@ -98,8 +101,11 @@ class MoviewsViewController: UIViewController,UITableViewDataSource,UITableViewD
             if((error) != nil) {
                 NSLog("Error communicating");
                 self.networkView.hidden = false
+                self.showhideview()
+
 
             }else{
+                var timerloaded = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: Selector("showhideview"), userInfo: nil, repeats: false)
             var object =  NSJSONSerialization.JSONObjectWithData(data, options: nil, error: nil) as NSDictionary
             self.movies = object["movies"] as [NSDictionary]
             self.tableView.reloadData()
