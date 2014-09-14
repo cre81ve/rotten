@@ -1,6 +1,6 @@
 rotten
 ======
-Rotten tomatoes , tried to mimic the gif. 
+Rotten tomatoes
 
 <b>GIF</b>:
 
