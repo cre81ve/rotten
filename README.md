@@ -8,32 +8,42 @@ Rotten tomatoes , tried to mimic the gif.
 
 <b>Time Taken</b> : 6 hours 20 mins
 
-<h3><b>Accomplished</b> </h3>
-Used Cocoapods - <i>AFNetoworking , MBProgreessHUD</i>
-- User can view a list of movies from Rotten Tomatoes. Poster images must be loading asynchronously. DONE
-- User can view movie details by tapping on a cell DONE
-- User sees loading state while waiting for movies API. You can use one of the 3rd party libraries at cocoacontrols.com. DONE
+<b> Instructions </b>
+- Use Xcode Beta 6 to build and run this app.
+
+<h3><b>CHECKLIST</b> </h3>
+- [x] Used Cocoapods - <i>AFNetoworking , MBProgreessHUD</i>
+- [x] User can view a list of movies from Rotten Tomatoes. Poster images must be loading asynchronously. 
+- [x] User can view movie details by tapping on a cell 
+- [x] User sees loading state while waiting for movies API. You can use one of the 3rd party libraries at cocoacontrols.com. 
     (Used MBProgressHUD cocoa Control)
-- User sees error message when there's a networking error. You may not use UIAlertView to display the error. DONE
+- [x] User sees error message when there's a networking error. You may not use UIAlertView to display the error. 
     (Used a View to address this)
-- User can pull to refresh the movie list. DONE
+- [x] User can pull to refresh the movie list. 
     (UIRefreshControl)
-
-<b>Optional Done</b>
-
-- Add a search bar. (optional) - DONE (FUNCTIONAL as well)   
-- All images fade in (optional) DONE (UIImageView animation options)
-- For the large poster, load the low-res image first, switch to high-res when complete (optional) DONE
-- All images should be cached in memory and disk. In other words, images load immediately upon cold start (optional) -
+- [x] Add a search bar. (optional) - DONE (FUNCTIONAL as well)   
+- [x] All images fade in (optional) DONE (UIImageView animation options)
+- [x] For the large poster, load the low-res image first, switch to high-res when complete (optional) DONE
+- [x] All images should be cached in memory and disk. In other words, images load immediately upon cold start (optional) -
   (Not sure about this ,using AFNetworking pod , might be doing this)
-
-<b>Optional NotDone</b>
-
-- Customize the highlight and selection effect of the cell. (optional)  - NO
-- Customize the navigation bar. (optional) - NO
-- Add a tab bar for Box Office and DVD. (optional) - NO
+- [ ] Customize the highlight and selection effect of the cell. (optional)
+- [ ] Customize the navigation bar. (optional)
+- [ ] Add a tab bar for Box Office and DVD. (optional)
 
 <b>Observations </b>
 - Time spent went into - UX elements (Label - vertical aligning , Animation of ImageView - stopAnimation checking) etc.
+
+
+<h3>License </h3>
+MIT
+
+<h3>Libraries used.</h3>
+
+https://github.com/jdg/MBProgressHUD
+https://github.com/AFNetworking/AFNetworking
+Used http://api.rottentomatoes.com/api/public/v1.0/ API
+
+
+
 
 
