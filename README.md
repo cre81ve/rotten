@@ -21,3 +21,4 @@ Customize the navigation bar. (optional) - NO
 Add a tab bar for Box Office and DVD. (optional) - NO
 
 
+Here is gif : <img src="https://github.com/cre81ve/rotten/blob/master/rotten_lcap.gif" ></img>
