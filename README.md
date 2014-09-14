@@ -18,17 +18,22 @@ Used Cocoapods - <i>AFNetoworking , MBProgreessHUD</i>
     (Used a View to address this)
 - User can pull to refresh the movie list. DONE
     (UIRefreshControl)
+
+<b>Optional Done</b>
+
 - Add a search bar. (optional) - DONE (FUNCTIONAL as well)   
 - All images fade in (optional) DONE (UIImageView animation options)
 - For the large poster, load the low-res image first, switch to high-res when complete (optional) DONE
 - All images should be cached in memory and disk. In other words, images load immediately upon cold start (optional) -
   (Not sure about this ,using AFNetworking pod , might be doing this)
 
-<h3><b>Not</b></h3>
+<b>Optional NotDone</b>
 
-Customize the highlight and selection effect of the cell. (optional)  - NO
-Customize the navigation bar. (optional) - NO
-Add a tab bar for Box Office and DVD. (optional) - NO
+- Customize the highlight and selection effect of the cell. (optional)  - NO
+- Customize the navigation bar. (optional) - NO
+- Add a tab bar for Box Office and DVD. (optional) - NO
 
+<b>Observations </b>
+- Time spent went into - UX elements (Label - vertical aligning , Animation of ImageView - stopAnimation checking) etc.
 
 
