@@ -1,6 +1,6 @@
 rotten
 ======
-1.Rotten tomatoes , tried to mimic the gif. 
+Rotten tomatoes , tried to mimic the gif. 
 
 - User can view a list of movies from Rotten Tomatoes. Poster images must be loading asynchronously. DONE
 - User can view movie details by tapping on a cell DONE
@@ -12,9 +12,7 @@ rotten
     (UIRefreshControl)
 - Add a search bar. (optional) - DONE (FUNCTIONAL as well)   
 - All images fade in (optional) DONE (UIImageView animation options)
-
 - For the large poster, load the low-res image first, switch to high-res when complete (optional) DONE
-
 - All images should be cached in memory and disk. In other words, images load immediately upon cold start (optional) -
   (Not sure about this ,using AFNetworking pod , might be doing this)
   
